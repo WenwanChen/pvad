@@ -1,5 +1,5 @@
 # pvad
-speaker conditioned voice activity detection
+speaker conditioned voice activity detection replicated from
 https://arxiv.org/abs/1908.04284
 
 ![image](https://user-images.githubusercontent.com/41505580/143957774-6b68790e-9752-44b2-bc69-c6c0307810a5.png)
