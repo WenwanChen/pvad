@@ -1,8 +1,12 @@
+# from
+# https://github.com/scarletcho/prep4kaldi
+# author: Yejin Cho (scarletcho@gmail.com)
+
 #!/usr/bin/env bash
 # ~~~~~~~~~
 # prep4kaldi.sh
 # ~~~~~~~~~
-# sh prep4kaldi.sh '/dataroot/train-clean-100' textgrid random
+# Usage: sh prep4kaldi.sh '/dataroot/train-clean-100' textgrid random
 
 # This script helps data preparation for building an ASR system in Kaldi
 # by creating 'text', 'utt2spk', 'segments', and 'wav.scp' under 'required' folder.
@@ -29,13 +33,8 @@
 #    - Name of TextGrid tier to extract labels from (if datatype is specified as 'textgrid').
 #    e.g. 'utterance', 'sent', ...
 #
-# Usage: $ sh prep4kaldi.sh <datadir> <datatype> <tiername>
 
-# Created: 2017-02-27
-# Last updated: 2017-02-27
 
-# Yejin Cho (scarletcho@gmail.com)
-# ─────────────────────────────────────────────────────────────────────────
 # Input section
 datadir=$1
 datatype=$2
