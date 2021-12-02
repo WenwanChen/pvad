@@ -27,3 +27,10 @@ Classifier: {non-speech, target speaker, and non-target speaker}
 
 5. Model definition and traning\
     pvad_training.py
+
+
+6. Saved model\
+    checkpoint_oct22_coswarm.t7
+
+7. Test\
+    test.py
