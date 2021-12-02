@@ -1,0 +1,15 @@
+torch
+numpy
+pandas
+kolm
+audiomentations
+glob
+soundfile
+pydub
+scipy
+resemblyzer
+pathlib
+python_speech_features
+matplotlib
+sklearn
+seaborn
